@@ -6,6 +6,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     
@@ -13,26 +14,37 @@
 	
 	
 	<div class="container">
-		
+    	<div class="span12">
+
+            <div id="header" class="span6">
+                <h1>SEARCH . WEATHER . NOW</h1><br>
+            </div>
         
-    <div class="row">
-  		<div class="span6 offset3">
-        
-        <h1>Find Me the Weather</h1><br>
-           
-           <div id="zipcode">
-            <!--Get Zipcode-->
-            <input type="text" placeholder="Show me the weather!"> 
-            <button type="submit" class="btn">Tell Me!</button>
+       		<!-- Get Zip -->
+            <div id="zipbar" class="span6">
+                <input type="text" placeholder="Zip Code?"> 
+                <button type="submit" class="btn"><i class="icon-chevron-right"></i></button>
       		</div>
-        
-		<!-- Get the Weather -->
-		<div id="weather"</div>
-        
-        
-	
-    </div> 
-	</div><!--end of container-->
+            
+      	</div> <!--end span12--> 
+          
+            
+        	<!-- Get the Weather -->
+      <div class="container-fluid">
+      	<div class="row-fluid">
+          	
+                <div id="weather"</div>
+         </div>
+      </div><!--end of container-->  
+     
+     <div class="alert">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Warning!</strong> Best check yo self, you're not looking too good.
+    </div>
+  
+    
+</div><!--end of container-->  	
+   
 	
 	<script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
