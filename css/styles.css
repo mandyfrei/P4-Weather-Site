@@ -4,7 +4,6 @@ body {
 
 
 #header {
-	/*background-color: red;*/
 	font-family: 'BenchNine', sans-serif;
 	color: #fff;
 	margin-left: 5px;
@@ -16,7 +15,6 @@ body {
 	float: right;
 	margin-right: 140px;
 	margin-top: 14px;
-	/*background-color: orange;*/
 }
 
 .span12 {
@@ -30,7 +28,6 @@ body {
 	margin-top: 70px;
 	margin-left: -24px;
 }
-
 
 
 #zipcode {
@@ -53,7 +50,7 @@ body {
 	font-family: 'BenchNine', sans-serif;
   	font-size: 150px;
 	padding-bottom: 80px;
-	/*background-color: blue;*/
+	margin-left: 8px;
 }
 
 h2.span6 {
@@ -72,13 +69,13 @@ h2.span6 {
 	/*color: orange;*/
 	font-family: 'BenchNine', sans-serif;
 	font-size: 17px;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 a.span6 {
 	padding-top: 6px;
 	padding-left: 160px;
-	margin-top: 8px;
+	margin-top: 10px;
 	color: orange;
 }
 	
@@ -91,7 +88,7 @@ a.span6 {
 	font-family: 'BenchNine', sans-serif;
   	font-size: 30px;
   	color: #fff;
-	/*background-color: purple;*/
+	margin-left: 24px;
 }
 
 p.span6 {
@@ -102,7 +99,7 @@ p.span6 {
 
 #weather img {
 	float: right;
-	margin-right: 120px;
+	margin-right: 140px;
 } 
 
 .row-fluid .span5 {
